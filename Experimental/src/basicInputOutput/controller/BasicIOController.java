@@ -16,6 +16,6 @@ public class BasicIOController
 		Scanner myScanner = new Scanner(System.in);
 		String response = myScanner.nextLine();
 		System.out.println(response);
-		
+		myScanner.close();
 	}
 }
