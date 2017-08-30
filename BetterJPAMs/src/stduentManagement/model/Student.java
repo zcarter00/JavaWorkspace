@@ -33,6 +33,7 @@ public class Student
 	 */
 	public Student(boolean isCurrentStudent, int gradeLevel, int idNumber, String name, String gender, int age, double gpa)
 	{
+		//this is an overloaded constructor
 		this.isCurrentStudent = isCurrentStudent;
 		this.gradeLevel = gradeLevel;
 		this.idNumber = idNumber;
