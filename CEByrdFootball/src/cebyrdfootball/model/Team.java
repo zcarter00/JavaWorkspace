@@ -29,14 +29,14 @@ public class Team
 		String str = "Team Doesn't Exist";
 		if(teamName != "")
 		{
-			str = teamName + ", with " + numPlayers + "players scores " + avgPPG + " points per game.";
+			str = teamName + ", with " + numPlayers + " player(s), scores " + avgPPG + " points per game.";
 			if(winningRecord)
 			{
-				str = str + "They are winning this season.";
+				str = str + " THEY ARE GOATS.";
 			}
 			else
 			{
-				str = str + "They are losing this season.";
+				str = str + " THEY ARE NEGATIVE GOATS.";
 			}
 		}
 		
