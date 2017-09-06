@@ -8,6 +8,9 @@ public class StringRunner
 		StringCommanda myCommanda = new StringCommanda();
 		myCommanda.pointless();
 		
+		System.out.println(myCommanda.orToOur("color"));
+		System.out.println(myCommanda.orToOur("armor"));
+		
 	}
 
 }
