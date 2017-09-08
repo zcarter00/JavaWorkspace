@@ -12,7 +12,7 @@ public class StringRunner
 		//.out.println(myCommanda.orToOur("armor"));
 		
 		WordReverser myReverser = new WordReverser();
-		System.out.println(myReverser.reverse("Racecar"));
+		System.out.println(myReverser.reverse("Mr.Goebel"));
 	}
 
 }
