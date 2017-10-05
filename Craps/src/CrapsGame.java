@@ -31,9 +31,9 @@ public class CrapsGame
 				  result = 0;
 				  point = total;
 			  }
-		  }
-	  else 
-		{
+		  }	  
+		  else 
+		  {
 			if(total == 7)
 			{
 				result = -1;
@@ -44,7 +44,11 @@ public class CrapsGame
 				result = 1;
 				point = 0;
 			}
-		}
+			else
+			{
+				result = 0;
+			}
+		  }
 	return result;
   }
 
