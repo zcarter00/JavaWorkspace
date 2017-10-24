@@ -8,16 +8,15 @@ public class MyMath
 	{
 		String result = "The first " + n + " perfect numbers are: ";
 		int count = 0;
+		int m = 1;
 		while(count < n)
 		{
-			for(int m = 3; m < n/2 - 1; m++)
+			if(isPerfect(m))
 			{
-				if(isPerfect(m))
-				{
-					result += m;
-					count++;
-				}
+				result += m + " ";
+				count++;
 			}
+			m++;
 		}
 		
 		
